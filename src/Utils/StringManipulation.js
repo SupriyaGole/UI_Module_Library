@@ -25,9 +25,3 @@ export const findLongestBorderLength = (input) => {
   }
   return maxBorder.length;
 };
-
-console.log("barbararhubarb::", findLongestBorderLength("barbararhubarb"));
-console.log("ababab::", findLongestBorderLength("ababab"));
-console.log("baaab::", findLongestBorderLength("baaab"));
-console.log("barbarbarbarbar::", findLongestBorderLength("barbarbarbarbar"));
-console.log("barbbarbbarb::", findLongestBorderLength("barbbarbbarb"));
